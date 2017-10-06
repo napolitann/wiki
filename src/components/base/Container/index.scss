@@ -1,0 +1,9 @@
+@import '../../../style/index';
+
+.Container {
+	width: 100%;
+
+	&.fluid {
+		display: flex;
+	}
+}

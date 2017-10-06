@@ -1,0 +1,20 @@
+@import '../../style/index';
+
+#Home {
+	position: static;
+	display: flex;
+
+	max-width: 80rem;
+
+	justify-content: center;
+	margin: 0 auto;
+
+	.Container {
+		padding: 1rem;
+		background-color: rgba(white, 0.64);
+	}
+
+	h2 {
+		text-transform: capitalize;
+	}
+}

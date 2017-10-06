@@ -1,0 +1,6 @@
+[submodule "src/style"]
+	path = src/style
+	url = https://github.com/napolitann/style
+[submodule "src/components/base/Icon/icon"]
+	path = src/components/base/Icon/icon
+	url = https://github.com/napolitann/icon
