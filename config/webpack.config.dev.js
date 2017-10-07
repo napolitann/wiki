@@ -92,7 +92,8 @@ module.exports = {
       '.js',
       '.json',
       '.web.jsx',
-      '.jsx'
+      '.jsx',
+      '.svg'
     ],
     alias: {
       
@@ -135,6 +136,10 @@ module.exports = {
         // match the requirements. When no loader matches it will fall
         // back to the "file" loader at the end of the loader list.
         oneOf: [
+          {
+            test: /\.svg$/,
+            loader: require.resolve('raw-loader')
+          },
           // "url" loader works like "file" loader except that it embeds assets
           // smaller than specified limit in bytes as data URLs to avoid requests.
           // A missing `test` is equivalent to a match.
@@ -207,7 +212,7 @@ module.exports = {
             options: {
               name: 'static/media/[name].[hash:8].[ext]',
             },
-          },
+          }
         ],
       },
       // ** STOP ** Are you adding a new loader?
