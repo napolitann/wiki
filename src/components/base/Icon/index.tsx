@@ -1,14 +1,18 @@
 import * as React from 'react'
-import './index.scss'
 
-export interface Props {
-	name: string
-}
+import './index.scss'
+import { Props } from './index.props'
 
 export default (props: Props): JSX.Element => {
-	const resource = require(`./icon/${ props.name }.svg`)
+	const Icon = require(`./icon/${ props.name }.svg`)
+
+	const [width, height] = props.size || ['', '']
 
 	return (
-		<span dangerouslySetInnerHTML = {{__html: resource}}/>
+		<span
+			id = 'logo'
+			style = {{ width, height }}
+			dangerouslySetInnerHTML = {{ __html: Icon }}
+		/>
 	)
 }

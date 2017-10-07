@@ -1,7 +1,11 @@
 @import '../../../style/index';
 
 #logo {
-	path {
-		fill: #40c0ff;
+	display: inline-block;
+
+	height: 100%;
+
+	svg {
+		height: 100%;
 	}
 }
