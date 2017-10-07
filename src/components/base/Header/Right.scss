@@ -1,0 +1,21 @@
+@import '../../../style/index';
+
+#Search {
+  display: flex;
+
+  #logo {
+    padding: 0.5rem;
+
+    background-color: white;
+
+    cursor: pointer;
+  }
+
+  input {
+    flex: 1;
+
+    border: 0;
+
+    background-color: white;
+  }
+}

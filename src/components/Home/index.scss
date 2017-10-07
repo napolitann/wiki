@@ -3,18 +3,20 @@
 #Home {
 	position: static;
 	display: flex;
+	flex-direction: column;
 
+	width: 100%;
 	max-width: 80rem;
 
 	justify-content: center;
-	margin: 0 auto;
+	margin: 2rem auto 0 auto;
 
-	.Container {
-		padding: 1rem;
-		background-color: rgba(white, 0.64);
+	textarea {
+		width: 100%;
+		height: 8rem;
 	}
 
-	h2 {
-		text-transform: capitalize;
+	#markdown {
+		padding: 0.5rem;
 	}
 }

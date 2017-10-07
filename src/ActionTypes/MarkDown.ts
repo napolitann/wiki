@@ -1,0 +1,1 @@
+export const MARK_DOWN_PARSE = 'MARK_DOWN_PARSE'
