@@ -8,9 +8,16 @@ export interface Props {
 	id?: string
 }
 
+const Container = 'Container'
+
 export default (props: Props): JSX.Element => {
+	const { id, className } = props
+	const cx = (className)
+		? `${ Container } ${ className }`
+		: Container
+
 	return (
-		<div id = {props.id} style = {props.className}>
+		<div id = {id} className = {cx}>
 			{props.children}
 		</div>
 	)
