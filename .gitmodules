@@ -4,3 +4,6 @@
 [submodule "src/components/base/Icon/icon"]
 	path = src/components/base/Icon/icon
 	url = https://github.com/napolitann/icon
+[submodule "src/Reducers/utils/markdown"]
+	path = src/Reducers/utils/markdown
+	url = https://github.com/napolitann/markdown
