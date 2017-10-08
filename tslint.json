@@ -56,7 +56,7 @@
 		"quotemark": [true, "single"],
 		"radix": true,
 		"semicolon": [true, "never"],
-		"switch-default": true,
+		"switch-default": false,
 
 		"trailing-comma": false,
 
