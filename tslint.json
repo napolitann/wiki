@@ -1,5 +1,5 @@
 {
-  "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier", "tslint-plugin-prettier"],
+  "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
   "rules": {
     "align": [true, "parameters", "arguments", "statements"],
     "ban": false,
@@ -37,14 +37,11 @@
     "radix": true,
     "semicolon": [true, "never"],
     "switch-default": false,
-
     "trailing-comma": false,
-
     "triple-equals": [true, "allow-null-check"],
     "typedef": [true, "parameter", "property-declaration"],
     "typedef-whitespace": false,
     "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case"],
-    "whitespace": false,
-    "prettier": true
+    "whitespace": false
   }
 }
