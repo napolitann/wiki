@@ -1,17 +1,36 @@
-wiki
-===
+# wiki
 
-this library is the wiki engine
-(base on create-react-app)
----
+simple, but stylish wiki (base on create-react-app)
 
-# how to use
+- language: typescript
+- frontend: react, sass
+## Getting Started
 
-## dev
-<code><pre>npm run dev</pre></code>
+if you want to develop
+```
+npm run dev
+```
 
-## build
-<code><pre>npm run build</pre></code>
+if you want to build
+```
+npm run build
+```
 
-## test
-<code><pre>npm run test</pre></code>
+if you want to test
+```
+npm run test
+```
+
+## submodule
+
+- napolitann / [markdown](https://github.com/napolitann/markdown)
+- napolitann / [style](https://github.com/napolitann/style)
+- napolitann / [icon](https://github.com/napolitann/icon)
+
+## contribute
+
+1. fork naplitann's submodule
+2. commit and push your code into the forked Repo
+3. pull request to the origin submodule from forked Repo
+4. ...
+5. profit!
